@@ -1,4 +1,4 @@
 {
-  "installCommand": "rm -rf node_modules && pnpm store prune && pnpm install --force",
+  "installCommand": "npm install -g pnpm@10.2.1 && pnpm config set registry https://registry.npmjs.org/ && pnpm store prune && pnpm install --force --ignore-scripts",
   "buildCommand": "pnpm run build"
 }
