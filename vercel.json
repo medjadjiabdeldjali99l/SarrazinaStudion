@@ -1,4 +1,4 @@
 {
-  "installCommand": "pnpm store prune && pnpm install --force",
-  "buildCommand": "pnpm run build"
+  "installCommand": "npm install",
+  "buildCommand": "npm run build"
 }
