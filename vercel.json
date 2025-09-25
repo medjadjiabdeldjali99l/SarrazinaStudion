@@ -1,4 +1,4 @@
 {
-  "installCommand": "npm install",
-  "buildCommand": "npm run build"
+  "installCommand": "rm -rf node_modules && pnpm store prune && pnpm install --force",
+  "buildCommand": "pnpm run build"
 }
