@@ -155,8 +155,16 @@ export default function Home(): React.JSX.Element {
                   <a href="mailto:szstudio18@gmail.com">szstudio18@gmail.com</a>
                 </div>
                 <div className="contact-item">
-                  <a href="tel:+213795091733">+213 795 091 733</a>
+                  <a href="tel:+213799208741" className="text-decoration-none">
+                    +213 799 208 741
+                  </a>
                 </div>
+                <div className="contact-item">
+                  <a href="tel:+213799628322" className="text-decoration-none">
+                    +213 799 628 322
+                  </a>
+                </div>
+
                 <div className="contact-item">
                   <p>
                     Szstudio,
