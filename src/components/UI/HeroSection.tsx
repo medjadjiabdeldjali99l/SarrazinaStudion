@@ -41,7 +41,7 @@ export default function HeroSection({
             playsInline
             className="background-video"
             poster={fallbackImage} // Preview pendant le chargement
-            preload="metadata"
+            // preload="metadata"
             onError={(e) => {
               // Si la vidéo échoue, affiche l'image en fallback
               const videoElement = e.target as HTMLVideoElement;
