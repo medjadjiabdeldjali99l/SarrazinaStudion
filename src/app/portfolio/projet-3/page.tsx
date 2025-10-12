@@ -27,6 +27,7 @@ export default function Projet3(): React.JSX.Element {
             "/images/REFLEXE ASSUR/1.webp",
             "/images/REFLEXE ASSUR/2.webp",
             "/images/REFLEXE ASSUR/3.webp",
+            "/images/REFLEXE ASSUR/4.webp",
           ]}
           altPrefix="BUREAU D'ASSURANCE REFLEXE"
         />
@@ -34,7 +35,6 @@ export default function Projet3(): React.JSX.Element {
         {/* Gallery 2 */}
         <ProjectGallery
           images={[
-            "/images/REFLEXE ASSUR/4.webp",
             "/images/REFLEXE ASSUR/5.webp",
             "/images/REFLEXE ASSUR/6.webp",
             "/images/REFLEXE ASSUR/7.webp",

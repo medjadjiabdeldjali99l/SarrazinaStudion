@@ -13,8 +13,6 @@ export default function Projet8(): React.JSX.Element {
       <HeroSection
         type="project"
         videoSrc="/videos/ANIMTERRASSE" // Sans extension
-        // imageSrc="/images/BELA/DUP/1.webp" // Fallback image
-        // poster="/images/BELA/DUP/1.webp" // Preview pendant chargement
         title="PROMOTION IMMOBILIÈRE BELA"
         description={["Résidentiel", "Hydra, Algérie"]}
         overlay={false} // Pas d'overlay pour ce projet
@@ -29,7 +27,6 @@ export default function Projet8(): React.JSX.Element {
             "/images/BELA/DUP/10.webp",
             "/images/BELA/DUP/2.webp",
             "/images/BELA/DUP/3.webp",
-            "/images/BELA/DUP/11.webp",
           ]}
           altPrefix="PROMOTION BELA - DUP"
         />
@@ -73,6 +70,7 @@ export default function Projet8(): React.JSX.Element {
             "/images/BELA/DUP/5.webp",
             "/images/BELA/DUP/7.webp",
             "/images/BELA/DUP/8.webp",
+            "/images/BELA/DUP/11.webp",
           ]}
           altPrefix="PROMOTION BELA - DUP"
         />
@@ -103,7 +101,6 @@ export default function Projet8(): React.JSX.Element {
             "/images/BELA/APPART TYPE/1.1.webp",
             "/images/BELA/APPART TYPE/1.2.webp",
             "/images/BELA/APPART TYPE/1.3.webp",
-            "/images/BELA/APPART TYPE/1.webp",
           ]}
           altPrefix="PROMOTION BELA - APPART TYPE"
         />
@@ -111,6 +108,7 @@ export default function Projet8(): React.JSX.Element {
         {/* Gallery 5 - APPART TYPE */}
         <ProjectGallery
           images={[
+            "/images/BELA/APPART TYPE/1.webp",
             "/images/BELA/APPART TYPE/2.webp",
             "/images/BELA/APPART TYPE/10.webp",
             "/images/BELA/APPART TYPE/13.webp",

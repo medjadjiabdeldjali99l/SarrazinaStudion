@@ -27,9 +27,13 @@ export default function Projet6(): React.JSX.Element {
             "/images/challet/1.webp",
             "/images/challet/2.webp",
             "/images/challet/3.webp",
-            "/images/challet/4.webp",
           ]}
           altPrefix="CHALET TALINE"
+        />
+
+        <ImgSolo
+          image="/images/challet/5.webp"
+          alt="STAND AUTOBACS - Détail structure"
         />
 
         {/* Gallery 2 */}
@@ -41,13 +45,16 @@ export default function Projet6(): React.JSX.Element {
         {/* Gallery 3 */}
         <ProjectGallery
           images={[
-            "/images/challet/5.webp",
             "/images/challet/6.webp",
             "/images/challet/6.1.webp",
             "/images/challet/7.webp",
             "/images/challet/8.webp",
           ]}
           altPrefix="CHALET TALINE"
+        />
+        <ImgSolo
+          image="/images/challet/4.webp"
+          alt="STAND AUTOBACS - Détail structure"
         />
 
         {/* Gallery 4 */}
@@ -61,22 +68,15 @@ export default function Projet6(): React.JSX.Element {
           altPrefix="CHALET TALINE"
         />
 
-        {/* Image Solo 1 */}
-        <ImgSolo
-          image="/images/challet/24.webp"
-          alt="CHALET TALINE - Vue extérieure"
-        />
-
         {/* Gallery 5 */}
         <ProjectGallery
-          images={[
-            "/images/challet/12.1.webp",
-            "/images/challet/13.webp",
-            "/images/challet/14.webp",
-          ]}
+          images={["/images/challet/12.1.webp", "/images/challet/13.webp"]}
           altPrefix="CHALET TALINE"
         />
-
+        <ProjectGallery
+          images={["/images/challet/14.webp", "/images/challet/24.webp"]}
+          altPrefix="CHALET TALINE"
+        />
         {/* Gallery 6 */}
         <ProjectGallery
           images={["/images/challet/20.webp", "/images/challet/21.webp"]}

@@ -27,14 +27,15 @@ export default function Projet5(): React.JSX.Element {
             "/images/STAND REFLEXE/5.webp",
             "/images/STAND REFLEXE/4.webp",
             "/images/STAND REFLEXE/7.webp",
+            "/images/STAND REFLEXE/3.webp",
           ]}
           altPrefix="STAND AUTOBACS"
         />
 
         {/* Image Solo 1 */}
         <ImgSolo
-          image="/images/STAND REFLEXE/3.webp"
-          alt="STAND AUTOBACS - Vue principale"
+          image="/images/STAND REFLEXE/16.webp"
+          alt="STAND AUTOBACS - Détail structure"
         />
 
         {/* Gallery 2 */}
@@ -60,10 +61,6 @@ export default function Projet5(): React.JSX.Element {
         />
 
         {/* Image Solo 2 */}
-        <ImgSolo
-          image="/images/STAND REFLEXE/16.webp"
-          alt="STAND AUTOBACS - Détail structure"
-        />
 
         {/* Gallery 4 */}
         <ProjectGallery

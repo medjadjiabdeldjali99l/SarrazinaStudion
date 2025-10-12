@@ -27,7 +27,6 @@ export default function Projet9(): React.JSX.Element {
             "/images/laverie/4.webp",
             "/images/laverie/2.webp",
             "/images/laverie/3.webp",
-            "/images/laverie/6.webp",
           ]}
           altPrefix="LAVERIE"
         />
@@ -41,6 +40,7 @@ export default function Projet9(): React.JSX.Element {
         {/* Gallery 2 */}
         <ProjectGallery
           images={[
+            "/images/laverie/6.webp",
             "/images/laverie/7.webp",
             "/images/laverie/9.webp",
             "/images/laverie/5.webp",

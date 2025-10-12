@@ -19,15 +19,16 @@ export default function Projet7(): React.JSX.Element {
       />
 
       {/* Image Solo en haut (spécifique à ce projet) */}
-      <div className="img-solo">
+      {/* <div className="img-solo">
         <ImgSolo image="/images/MCCOOL/1.webp" alt="MCCOOL - Vue principale" />
-      </div>
+      </div> */}
 
       {/* Section Images */}
       <section className="section-img">
         {/* Gallery 1 */}
         <ProjectGallery
           images={[
+            "/images/MCCOOL/1.webp",
             "/images/MCCOOL/6.webp",
             "/images/MCCOOL/2.webp",
             "/images/MCCOOL/3.webp",
@@ -36,7 +37,10 @@ export default function Projet7(): React.JSX.Element {
           ]}
           altPrefix="MCCOOL"
         />
-
+        <ImgSolo
+          image="/images/MCCOOL/12.webp"
+          alt="MCCOOL - Détail intérieur"
+        />
         {/* Gallery 2 */}
         <ProjectGallery
           images={["/images/MCCOOL/7.webp", "/images/MCCOOL/9.webp"]}
@@ -56,10 +60,6 @@ export default function Projet7(): React.JSX.Element {
         />
 
         {/* Image Solo 2 */}
-        <ImgSolo
-          image="/images/MCCOOL/12.webp"
-          alt="MCCOOL - Détail intérieur"
-        />
 
         {/* Comparateur d'images */}
         <ImageCompare

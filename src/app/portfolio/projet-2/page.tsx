@@ -27,6 +27,7 @@ export default function Projet2(): React.JSX.Element {
             "/images/NK2/0.1.webp",
             "/images/NK2/0.2.webp",
             "/images/NK2/2.webp",
+            "/images/NK2/3.webp",
           ]}
           altPrefix="PÂTISSERIE NK 2"
         />
@@ -34,7 +35,6 @@ export default function Projet2(): React.JSX.Element {
         {/* Gallery 2 */}
         <ProjectGallery
           images={[
-            "/images/NK2/3.webp",
             "/images/NK2/4.webp",
             "/images/NK2/5.webp",
             "/images/NK2/6.webp",

@@ -21,29 +21,32 @@ export default function Projet10(): React.JSX.Element {
       {/* Section Images */}
       <section className="section-img">
         {/* Image Solo 1 - en haut */}
-        <ImgSolo
-          image="/images/CASBAH/1.0.webp"
+        {/* <ImgSolo
+          image=
           alt="RESTAURANT CASBAH - Vue principale"
-        />
+          // width={1900}
+        /> */}
 
         {/* Gallery 1 */}
         <ProjectGallery
           images={[
+            "/images/CASBAH/1.0.webp",
             "/images/CASBAH/1.1.webp",
             "/images/CASBAH/1.2.webp",
             "/images/CASBAH/1.3.webp",
             "/images/CASBAH/1.4.webp",
             "/images/CASBAH/1.10.webp",
             "/images/CASBAH/1.5.webp",
+            "/images/CASBAH/1.14.webp",
           ]}
           altPrefix="RESTAURANT CASBAH"
         />
 
         {/* Image Solo 2 */}
-        <ImgSolo
-          image="/images/CASBAH/1.14.webp"
+        {/* <ImgSolo
+          image=
           alt="RESTAURANT CASBAH - Détail ambiance"
-        />
+        /> */}
 
         {/* Gallery 2 */}
         <ProjectGallery
@@ -55,15 +58,16 @@ export default function Projet10(): React.JSX.Element {
             "/images/CASBAH/1.11.webp",
             "/images/CASBAH/1.13.webp",
             "/images/CASBAH/1.12.webp",
+            "/images/CASBAH/1.16.webp",
           ]}
           altPrefix="RESTAURANT CASBAH"
         />
 
         {/* Image Solo 3 */}
-        <ImgSolo
+        {/* <ImgSolo
           image="/images/CASBAH/1.16.webp"
           alt="RESTAURANT CASBAH - Vue intérieure"
-        />
+        /> */}
 
         {/* Gallery 3 */}
         <ProjectGallery
@@ -72,7 +76,7 @@ export default function Projet10(): React.JSX.Element {
             "/images/CASBAH/1.18.webp",
             "/images/CASBAH/1.19.webp",
             "/images/CASBAH/1.111.webp",
-            "/images/CASBAH/scene 1.12.webp",
+            // "/images/CASBAH/scene 1.12.webp",
           ]}
           altPrefix="RESTAURANT CASBAH"
         />
