@@ -1502,7 +1502,17 @@ img {
     text-align: center !important;
   }
   .project-gallery {
-    column-count: 1;
+    column-count: 1 !important; /* Force une seule colonne */
+    width: 100% !important; /* Prend toute la largeur */
+    padding: 0 10px; /* Petit padding sur les côtés */
+  }
+
+  .project-gallery img {
+    width: 100% !important; /* Image à 100% de la largeur */
+    height: auto !important; /* Hauteur automatique pour garder les proportions */
+    max-width: 100% !important; /* Ne dépasse pas de l'écran */
+    margin-bottom: 20px; /* Espacement entre les images */
+    display: block; /* Évite l'espace sous les images inline */
   }
   .sectionimagmobilier {
     padding-top: 2rem;
@@ -1564,6 +1574,13 @@ img {
 
   .filter-btn {
     width: 100%;
+  }
+  .project-gallery {
+    padding: 0 5px;
+  }
+
+  .project-gallery img {
+    margin-bottom: 15px;
   }
 
   .newsletter-content {
