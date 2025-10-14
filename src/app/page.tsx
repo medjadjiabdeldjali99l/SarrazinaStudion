@@ -167,7 +167,7 @@ export default function Home(): React.JSX.Element {
 
                 <div className="contact-item">
                   <p>
-                    Szstudio,
+                    SARRAZINE,
                     <br />
                     ALGER, ALGERIE
                   </p>

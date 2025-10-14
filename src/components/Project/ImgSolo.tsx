@@ -13,8 +13,11 @@ export default function ImgSolo({
   alt,
 }: ImgSoloProps): React.JSX.Element {
   return (
+    // <div className="img-solo">
+    //   <Image src={image} alt={alt} width={0} height={0} sizes="90vw" />
+    // </div>
     <div className="img-solo">
-      <Image src={image} alt={alt} width={0} height={0} sizes="90vw" />
+      <Image src={image} alt={alt} width={19000} height={0} />
     </div>
   );
 }

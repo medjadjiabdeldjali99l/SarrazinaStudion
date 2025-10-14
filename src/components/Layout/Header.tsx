@@ -25,7 +25,7 @@ export default function Header(): React.JSX.Element {
     <nav className="navbar navbar-expand-lg navbar-light fixed-top">
       <div className="container">
         <Link className="navbar-brand" href="/">
-          SZstudio
+          SARRAZINE
         </Link>
 
         <button
